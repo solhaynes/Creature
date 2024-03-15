@@ -1,5 +1,102 @@
 .container {
   background-image: linear-gradient(rgb(98, 238, 238), rgb(25, 191, 247));
-  height: 100%;
+  margin: 0;
+  padding-top: 10%;
+  height: 100vh;
   width: 100%;
 }
+
+.head{
+  height: 350px;
+  width: 500px;
+  border-radius: 50%;
+  border: solid 5px black;
+  background-color: rgb(153, 200, 200);
+  position: relative;
+  margin: auto;
+}
+
+.eye{
+  height: 200px;
+  width: 100px;
+  z-index: 2;
+  border: solid 5px black;
+  background-color: white;
+  border-radius: 50% 50% 40% 40%;
+  position: relative;
+  margin: 0;
+}
+.left{
+  top: 200px;
+  left: 140px;
+}
+
+.right{
+  top: -10px;
+  left: 250px;
+}
+
+.pupil{
+  height: 30px;
+  width: 15px;
+  background-color: brown;
+  border-radius: 5px;
+  position: relative;
+  margin: auto;
+}
+
+.eyelid{
+  height: 100px;
+  width: 100px;
+  border: solid 5px black;
+  border-radius: 50% 50% 0 0;
+  background-color:rgb(115, 173, 173);
+  z-index: 2;
+  position: relative;
+  top: -10px;
+  left: -5px;
+}
+
+.nose{
+  width: 126px;
+  height: 250px;
+  background-color: rgb(153, 200, 200);
+  border: solid 5px black;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  position: relative;
+  top:-80px;
+  left: 180px;
+  z-index: 4;
+}
+
+.cheeks{
+  height: 200px;
+  width: 210px;
+  background-color: rgb(153, 200, 200);
+  border: solid 5px black;
+  z-index: 0;
+  position: relative;
+  margin: auto;
+  top: -350px;
+  }
+
+  .lips{
+    height: 60px;
+    width: 400px;
+    border: solid 5px black;
+    border-radius: 15px;
+    background-color: rgb(153, 200, 200);
+    z-index: 2;
+    position: relative;
+    margin: auto;
+    top: -400px;
+  }
+
+  .mouth{
+    height: 5px;
+    width: 350px;
+    background-color: black;
+    position: relative;
+    margin: auto;
+    top: 25px;
+  }
